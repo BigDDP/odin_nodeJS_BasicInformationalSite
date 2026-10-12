@@ -10,8 +10,11 @@ const port = 8080;
 const routes = {
   '/': 'index.html',
   '/index': 'index.html',
+  '/index.html': 'index.html',
   '/about': 'about.html',
+  '/about.html': 'about.html',
   '/contact-me': 'contact.html',
+  '/contact.html': 'contact.html',
 };
 
 const server = createServer((req, res) => {
